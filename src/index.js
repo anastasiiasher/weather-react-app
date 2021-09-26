@@ -8,7 +8,7 @@ import Weather from "./Weather";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <Weather defaultCity="Prague" />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
