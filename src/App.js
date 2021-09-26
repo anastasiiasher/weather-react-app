@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
 
-function Weather() {
+function App() {
   return (
     <div className="App container">
-      <h1> Weather app</h1>
       <footer>
         <p>
-          {"This project was code with React by"}
+          {"This project was code with React by "}
           <a
             href="https://www.linkedin.com/in/anastasiia-sherstobitova-4911971b0/"
             target="_blank"
@@ -15,12 +14,12 @@ function Weather() {
           >
             {"Anastasiia Sherstobitova"}
           </a>
-          {"and it is"}
+          {" and it is "}
           <a
             href="https://www.linkedin.com/in/anastasiia-sherstobitova-4911971b0/"
             rel="noreferrer"
           >
-            {"open-sourced"}
+            {" open-sourced"}
           </a>
         </p>
       </footer>
@@ -28,4 +27,4 @@ function Weather() {
   );
 }
 
-export default Weather;
+export default App;
